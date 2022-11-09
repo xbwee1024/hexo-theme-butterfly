@@ -14,6 +14,7 @@ script.
         repo: '!{theme.gitalk.repo}',
         owner: '!{theme.gitalk.owner}',
         admin: ['!{theme.gitalk.admin}'],
+        proxy: ['!{theme.gitalk.proxy}'],
         id: '!{md5(page.path)}',
         updateCountCallback: commentCount
       },!{JSON.stringify(theme.gitalk.option)}))
